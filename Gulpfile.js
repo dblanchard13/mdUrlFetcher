@@ -7,7 +7,7 @@ const nodemon = require('gulp-nodemon');
 const todo = require('gulp-todoist');
 
 const paths = {
-  app: ['db/**/*.**', 'server/**/*.**', 'config/**/*.**' 'index.js']
+  app: ['db/**/*.**', 'server/**/*.**', 'config/**/*.**', 'index.js']
 };
 
 gulp.task('todo', () => {
