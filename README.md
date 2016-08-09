@@ -7,7 +7,7 @@
     `brew install redis`
 
   - PostgreSQL with a database named dblanchard_massdrop (the name can be changed in ./config/development.js)
-    `brew install postgresql`
+    `brew install postgresql` &&
     `createdb dblanchard_massdrop`
 
   - Node version 4+
@@ -21,7 +21,7 @@
     `npm install`
   
   - Then run the following commands in separate terminal windows:
-    `redis-server`
+    `redis-server` &&
     `npm start`
 
 ## Interacting with the API
