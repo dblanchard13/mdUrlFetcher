@@ -1,0 +1,28 @@
+{
+  "name": "md",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "db.log": "^1.0.3",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.1.0",
+    "gulp-todoist": "0.0.2",
+    "j.require": "^1.0.7",
+    "kue": "^0.11.1",
+    "lodash": "^4.14.1",
+    "morgan": "^1.7.0",
+    "pg": "^6.0.3",
+    "pg-hstore": "^2.3.2",
+    "run-sequence": "^1.2.2",
+    "sequelize": "^3.23.6",
+    "superagent": "^2.1.0"
+  }
+}
