@@ -5,6 +5,7 @@ const log = require('db.log');
 
 const config = {
   dev: 'development',
+  test: 'testing',
   port: process.env.PORT || 3000,
 };
 

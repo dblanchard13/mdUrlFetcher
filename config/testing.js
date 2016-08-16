@@ -1,7 +1,7 @@
 module.exports = {
-  loggingOff: false,
+  loggingOff: true,
   db: {
-    name: 'dblanchard_massdrop',
+    name: 'dblanchard_massdrop_test',
     user: '',
     password: '',
     host: 'localhost',
@@ -12,6 +12,6 @@ module.exports = {
       idle: 10000
     }
   },
-  // example max file size of 1 million bytes
-  maxFileSize: 1000000000,
+  // allow a much smaller max file size for testing
+  maxFileSize: 1000,
 };
