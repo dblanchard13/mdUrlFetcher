@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "start": "pm2 start processes.json",
+    "stop": "pm2 stop processes.json"
   },
   "author": "",
   "license": "ISC",
