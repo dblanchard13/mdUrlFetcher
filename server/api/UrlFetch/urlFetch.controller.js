@@ -27,9 +27,10 @@ exports.idParam = (req, res, next, id) => {
 };
 
 exports.getResult = (req, res, next) => {
-  // send back the pending status if the job hasn't been processed yet.
-  if(req.result.status === 'pending'){
-    res.json({status: 'pending'});
+  // send back the status if the job hasn't completed successfully
+  const status = req.result.status;
+  if(status !== 'completed'){
+    res.json({ status });
     return;
   }
 

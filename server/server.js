@@ -11,9 +11,6 @@ require('../db/db');
 // setup the app middlware
 require('./middleware/middleware')(app);
 
-// initialize the fetcher worker that processes jobs off the queue
-require('./fetcher/fetcher');
-
 // setup the api to start with the root path of /api
 app.use('/api', api);
 
