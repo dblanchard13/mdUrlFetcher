@@ -16,13 +16,20 @@
   - NPM
     Is packaged with Node so you should be fine on that
 
-## Starting the API
+  - pm2
+    can be installed with the following command:
+      `npm install pm2 -g`
+
+## Starting the API and Fetcher Worker
   - First cd into the repo and run:
     `npm install`
   
   - Then run the following commands in separate terminal windows:
-    `redis-server` &&
     `npm start`
+
+## Stopping the API and Fetcher Worker
+  - Run the following from inside the repo:
+    `npm stop`
 
 ## Interacting with the API
   - I chose to use http pie which can be installed with the following command:
